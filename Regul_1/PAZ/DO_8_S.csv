@@ -1,0 +1,20 @@
+//CoDeSys Mapping Export V1.2;;;;;
+//Mapped variable;//Parameter name @ counter in device;//Unit;//Description;//IEC address;//Device name
+//Important: change only first, third or fourth column in Excel or add variable name before first ;;;;;
+Application_PAZ.PAZ_GVL.A1_14.out_ch1;do1;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch2;do2;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch3;do3;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch4;do4;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch5;do5;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch6;do6;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch7;do7;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.out_ch8;do8;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent1;ActiveCurrent1;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent2;ActiveCurrent2;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent3;ActiveCurrent3;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent4;ActiveCurrent4;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent5;ActiveCurrent5;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent6;ActiveCurrent6;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent7;ActiveCurrent7;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.ActivCurrent8;ActiveCurrent8;;;;A1_14
+Application_PAZ.PAZ_GVL.A1_14.hwErr;HwError;;;;A1_14

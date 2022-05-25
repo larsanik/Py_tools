@@ -1,0 +1,696 @@
+<Data>
+    <CompositeFBType Name="T_Nev_AS" ShowVarTypes="true" UUID="PF4VRPZQH5EUHILPKBJV5WKCLY">
+        <InterfaceList>
+            <InputVars>
+                <VarDeclaration Name="PrefAb" Type="STRING" InitialValue="&apos;&apos;" UUID="U3X4UFK66ACU5H7KNEXC2LJZ7I" />
+                <VarDeclaration Name="NameRU" Type="STRING" InitialValue="&apos;&apos;" UUID="GSOR5H7AEMUUXD32KCFAKDHS74" />
+            </InputVars>
+        </InterfaceList>
+        <FBNetwork>
+            <FB Name="Alarm_1_SHD_tg_main_gas_Kr" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="4RYJMTQ5IGRCX53G3CFJVRST6E" Y="250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, блок рег. газа двиг., гл. газ. клапан&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_tg_main_gas_Kr&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_tg_main_gas_KrОСТ, блок рег. газа двиг., гл. газ. клапан&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_2_SHD_tg_inlet_press_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="625VJ2LIJ56IXDOEG2TLQ4IPM4" Y="500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, блок рег. газа двиг., ВД на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_tg_inlet_press_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_tg_inlet_press_highОСТ, блок рег. газа двиг., ВД на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_3_SHD_tg_inlet_press_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="N3MVRTSMJDRJ5SGWR26IDHMQTQ" Y="750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, блок рег. газа двиг., НД на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_tg_inlet_press_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_tg_inlet_press_lowОСТ, блок рег. газа двиг., НД на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_4_SHD_tg_inlet_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ALFPBCBWJD6DSSAKPSYPJWITB4" Y="1000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, блок рег. газа двиг., ВТ на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_tg_inlet_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_tg_inlet_T_highОСТ, блок рег. газа двиг., ВТ на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_5_SHD_tg_inlet_T_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="5KZDY3XOIMWOLO2GSGBSGEMWAE" Y="1250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, блок рег. газа двиг., НТ на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_tg_inlet_T_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_tg_inlet_T_lowОСТ, блок рег. газа двиг., НТ на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_6_SHD_from_load_red" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="JCYQACTFJ3ZPL7TAPSCEVXHGPM" Y="1500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Остановка активиз. от уменьш. нагр.&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_from_load_red&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_from_load_redОСТ, Остановка активиз. от уменьш. нагр.&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_7_SHD_PNSN_failed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="UD3ZBFSSJFEANWG65GIZBXBITE" Y="1750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, отказ компрессора насоса предв. смазки&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_PNSN_failed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_PNSN_failedОСТ, отказ компрессора насоса предв. смазки&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_8_SHD_WECS_comm_failure" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="HJ2IBFKRIMOJARSYHGPNED2B5U" Y="2000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, WECS остановка общ. неисправности &apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_WECS_comm_failure&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_WECS_comm_failureОСТ, WECS остановка общ. неисправности &apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_9_SHD_Start_preparation_fa" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ZLMSROLYIQXOJ4MCOKXRS73QAM" Y="2250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Подготовка к запуску не удалась&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Start_preparation_fa&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Start_preparation_faОСТ, Подготовка к запуску не удалась&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_10_SHD_D_ventil_failed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="G2BRYJKVJL4G5MHJFGOHZJDKQI" Y="2500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Вентил.двиг. не удалась (пусков. двиг.)&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_D_ventil_failed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_D_ventil_failedОСТ, Вентил.двиг. не удалась (пусков. двиг.)&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_11_SHD_D_start_failed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="OJVHUHYFJGMBGIOKEC55SK5ILM" Y="2750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Запуск двигателя не удался&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_D_start_failed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_D_start_failedОСТ, Запуск двигателя не удался&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_12_SHD_D_NOT_stop_20min" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ADTRU5CFJV7BQXTQ2WMFCBENDM" Y="3000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Двигатель не остановился через 20 мин.&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_D_NOT_stop_20min&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_D_NOT_stop_20minОСТ, Двигатель не остановился через 20 мин.&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_13_SHD_PNS_failed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ZQDCBGPJI7TCRKPIYW2BSQJN5A" Y="3250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Предвар. смазка не удалась&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_PNS_failed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_PNS_failedОСТ, Предвар. смазка не удалась&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_14_SHD_Gas_leak_test_failed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="2YJKMJJ5IDOOYM56U6WHLJ3GIM" Y="3500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Испытание утечки газа не удалось&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Gas_leak_test_failed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Gas_leak_test_failedОСТ, Испытание утечки газа не удалось&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_15_SHD_WECS_shtd_FOR_PLC" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="PD7HETYIIJEGEPBYOC6FBEFKJ4" Y="3750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, WECS фикс. сигнал остановки для PLC&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_WECS_shtd_FOR_PLC&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_WECS_shtd_FOR_PLCОСТ, WECS фикс. сигнал остановки для PLC&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_16_SHD_Exhaust_ventilation" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="IB3NILKKJL5ATN6BQGPZ2XXHJM" Y="4000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Остановка вентил. выхл. Газа&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Exhaust_ventilation&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Exhaust_ventilationОСТ, Остановка вентил. выхл. Газа&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_17_SHD_GC_bearing_1_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="KT4OB4MCJNXLKMNHX6PWRIQ7UQ" Y="4250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 1 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_1_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_1_T_highОСТ, высок. темп. подшипника 1 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_18_SHD_GC_bearing_2_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="7BECZU2UJLLGQQOFWGHTK6DY4U" Y="4500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 2 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_2_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_2_T_highОСТ, высок. темп. подшипника 2 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_19_SHD_GC_bearing_3_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="GIPB4YASIVLHMUQSXOYSL4FSXA" Y="4750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 3 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_3_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_3_T_highОСТ, высок. темп. подшипника 3 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_20_SHD_GC_bearing_4_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="YSBUAEW2J2RA7IYAP24ZMAYOVM" Y="5000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 4 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_4_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_4_T_highОСТ, высок. темп. подшипника 4 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_21_SHD_GC_bearing_5_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="2YFPRICCJYLMDGUEN6YVDVIZFA" Y="5250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 5 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_5_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_5_T_highОСТ, высок. темп. подшипника 5 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_22_SHD_GC_bearing_6_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="RA5UVOFEI7UDWC7A624W6CINWU" Y="5500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. подшипника 6 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_bearing_6_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_bearing_6_T_highОСТ, высок. темп. подшипника 6 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_23_SHD_FOG_1_oil_level_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="NAQ4JD5EIHABY5GWT22AOYNG5M" Y="5750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, выс. уровень масла фильтра газа 1 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_FOG_1_oil_level_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_FOG_1_oil_level_highОСТ, выс. уровень масла фильтра газа 1 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_24_SHD_FOG_2_oil_level_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="HSJ35FU3IXKA5Y5TJWR725TBVE" Y="6000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, выс. уровень масла фильтра газа 2 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_FOG_2_oil_level_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_FOG_2_oil_level_highОСТ, выс. уровень масла фильтра газа 2 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_25_SHD_GC_cyl_1_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="OI5ZJ3ERJVWL7IRR3CG4W6UNRM" Y="6250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 1 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_1_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_1_T_highОСТ, высок. темп. цилиндра 1 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_26_SHD_GC_cyl_3_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="K2J7IV7GICNCQ6J4IKPN7KVLFA" Y="6500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 3 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_3_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_3_T_highОСТ, высок. темп. цилиндра 3 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_27_SHD_GC_cyl_5_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="JSLG4PO2JTXBFVMBECHHIJVCVE" Y="6750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 5 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_5_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_5_T_highОСТ, высок. темп. цилиндра 5 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_28_SHD_GC_cyl_2_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="NK7JFTA3JHIHHPTTJ2MCP6T3TM" Y="7000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 2 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_2_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_2_T_highОСТ, высок. темп. цилиндра 2 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_29_SHD_GC_cyl_4_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="DLUPBRFZJLEIVZV3W2E7IYDPEI" Y="7250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 4 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_4_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_4_T_highОСТ, высок. темп. цилиндра 4 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_30_SHD_GC_cyl_6_T_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="KJNJBPYTJTAPVQAHFGBLTZX65E" Y="7500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, высок. темп. цилиндра 6 ГК&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_cyl_6_T_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_cyl_6_T_highОСТ, высок. темп. цилиндра 6 ГК&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_31_SHD_NCW_stopped" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="WL3AVW6OJSGPYVEJSWOPQAK3DU" Y="7750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, охлаждающий насос ГК отключен&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_NCW_stopped&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_NCW_stoppedОСТ, охлаждающий насос ГК отключен&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_32_SHD_GC_high_load_unloade" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="FRHNBRK4JGLGMRZ4OOPM3YVMYA" Y="8000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс.нагрузка (разгрузочные клапаны)&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_high_load_unloade&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_high_load_unloadeОСТ, ГК, выс.нагрузка (разгрузочные клапаны)&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_33_SHD_VnAVOG_4_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="IDUIE2D5J5DF52V5MCE7M2SU3M" Y="8250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 4&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_4_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_4_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 4&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_34_SHD_VnAVOG_5_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ZYHTZ32XIA5COB2VLKZ2CEN27I" Y="8500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 5&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_5_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_5_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 5&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_35_SHD_VnAVOG_6_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="2A4BVYTSIW7NRIYXJOMDC3ZZDE" Y="8750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 6&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_6_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_6_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 6&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_36_SHD_FOG_2_oil_lev_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="WAIFNQKWJFFJ5NLJAOCSDHNF5Y" Y="9000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, фильтр газа 2 повышенн. уровень масла&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_FOG_2_oil_lev_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_FOG_2_oil_lev_highОСТ, фильтр газа 2 повышенн. уровень масла&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_37_SHD_FOG_1_oil_lev_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="HYG3J42OIQCH4YIXRGGK4LX34M" Y="9250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, фильтр газа 1 повышенн. уровень масла &apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_FOG_1_oil_lev_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_FOG_1_oil_lev_highОСТ, фильтр газа 1 повышенн. уровень масла &apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_38_SHD_Plant_shutDOwn" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="6RM25UWNI7ODWIRTKST5IGXKIA" Y="9500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, останов станции&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Plant_shutDOwn&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Plant_shutDOwnОСТ, останов станции&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_39_SHD_Kr_unit_Krs_closed" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="3TBOUZMXJW2KBFTFRGE7KRARZQ" Y="9750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, клапаны клапанного модуля закрыты&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Kr_unit_Krs_closed&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Kr_unit_Krs_closedОСТ, клапаны клапанного модуля закрыты&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_40_SHD_gas_Kr_control_fault" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="KK3XQGWRJDHNRDDIZ6UI76U37M" Y="10000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, КК, ошибка управления газовым клапаном&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_gas_Kr_control_fault&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_gas_Kr_control_faultОСТ, КК, ошибка управления газовым клапаном&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_41_SHD_GC_QmsmCyl1_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="XTGUUS6VJJGPDIULROB5KS7XHI" Y="10250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, слаб. поток смаз. масла в цилиндре&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_QmsmCyl1_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_QmsmCyl1_lowОСТ, ГК, слаб. поток смаз. масла в цилиндре&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_42_SHD_GC_QmsmCyl2_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="TSF6VMU4IZGAQIBU6CPF5DQ5ZY" Y="10500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, слаб. поток смаз. масла в цилиндре&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_QmsmCyl2_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_QmsmCyl2_lowОСТ, ГК, слаб. поток смаз. масла в цилиндре&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_43_SHD_Pmsm_inGC_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="YK6KYBHZILWD5YTLM6C7IEWFCY" Y="10750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, низк. давление смаз. масла на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Pmsm_inGC_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Pmsm_inGC_lowОСТ, ГК, низк. давление смаз. масла на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_44_SHD_Tmsm_inGC_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="OBPVMU3LIXDHIBYKQSLW7OGWQI" Y="11000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс.t смазочного. масла на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Tmsm_inGC_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Tmsm_inGC_highОСТ, ГК, выс.t смазочного. масла на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_45_SHD_GC_inlet_gas_P_low" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="JBDPID4YJGCOMCX6WSF5VZNFAQ" Y="11250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, низкое давление газа на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_inlet_gas_P_low&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_inlet_gas_P_lowОСТ, ГК, низкое давление газа на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_46_SHD_VnAVOG_1_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="RSY3UIKUI3TJ7ITF5CUWUVPY2Y" Y="11500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 1&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_1_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_1_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 1&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_47_SHD_VnAVOG_2_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="TKP6R5KHIVBGSL5BHOMXLIVYK4" Y="11750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 2&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_2_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_2_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 2&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_48_SHD_VnAVOG_3_vibr_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="4CYAVOMOIZLE37ZWMGJ77VFWYM" Y="12000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. вибрация охлажд. вентилятора 3&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_VnAVOG_3_vibr_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_VnAVOG_3_vibr_highОСТ, ГК, выс. вибрация охлажд. вентилятора 3&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_49_EMG_Kr5_open" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="ZJJVIVGFJQCN22ERHKOVFAYPU4" Y="12250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, клапанная коробка, вент. клапан открыт&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_Kr5_open&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_Kr5_openАВ, клапанная коробка, вент. клапан открыт&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_50_EMG_MZ_AObutton" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="2ZTDY2TRJL4JBB2OJGJNB53HRA" Y="12500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, кнопка аварийного останова машзала&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_MZ_AObutton&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_MZ_AObuttonАВ, кнопка аварийного останова машзала&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_51_SHD_Hmsm_GC_hi_hi" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="U3ORFWI2JNREFRLX7SFYOZGRVQ" Y="12750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, ГК, выс. уровень масла в картере выс&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_Hmsm_GC_hi_hi&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_Hmsm_GC_hi_hiОСТ, ГК, выс. уровень масла в картере выс&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_52_SHD_GC_vibration_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="G32ERYIPJJ4EX6TWRO5222HRKU" Y="13000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Сильн.вибрац. компрессора&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_GC_vibration_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_GC_vibration_highОСТ, Сильн.вибрац. компрессора&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_53_SHD_D_vibration_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="Y2QBQ6E4JK5FKUNX3K2Z7RLIRM" Y="13250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;ОСТ, Сильн.вибрац. двигат.&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;SHD_D_vibration_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;SHD_D_vibration_highОСТ, Сильн.вибрац. двигат.&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_54_EMG_ESDrele_ON" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="LCD2BH2VI3VOWFO5AKSZ4MO55U" Y="13500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, показание защ. реле авар. цепи станции&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_ESDrele_ON&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_ESDrele_ONАВ, показание защ. реле авар. цепи станции&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_55_EMG_WECS_panel_AObutton" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="S34UJU47JSBIXGFHKSVELVRS2E" Y="13750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, Аварийная кнопка панели WECS&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_WECS_panel_AObutton&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOb&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_WECS_panel_AObuttonАВ, Аварийная кнопка панели WECS&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_56_EMG_DispAObutton" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="W3DEAIRCIVEDMV2T3CXGK6BST4" Y="14000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, Авар. кнопка диспетчерской&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_DispAObutton&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_DispAObuttonАВ, Авар. кнопка диспетчерской&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_57_EMG_ToutAVOG1_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="3JA34XG3ITOJLFX6OOKAUSWVNE" Y="14250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, ГК, высок.темп. на выходе газоохладителя 1&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_ToutAVOG1_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_ToutAVOG1_highАВ, ГК, высок.темп. на выходе газоохладителя 1&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_58_EMG_ToutAVOG2_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="BI5VBONDJL4LI4MPYCAP3OWC4E" Y="14500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, ГК, высок.темп. на выходе газоохладителя 2&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_ToutAVOG2_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_ToutAVOG2_highАВ, ГК, высок.темп. на выходе газоохладителя 2&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_59_EMG_PoutGC1_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="J2LLUTRYJONAY7BDISJ67ZMWNQ" Y="14750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, ГК, ВД газа на выходе ступени 1&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_PoutGC1_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_PoutGC1_highАВ, ГК, ВД газа на выходе ступени 1&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_60_EMG_PoutGC2_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="GSDBZ3TEJYNNTN5XHWETFMRM7Q" Y="15000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, ГК, ВД газа на выходе ступени 2&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_PoutGC2_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_PoutGC2_highАВ, ГК, ВД газа на выходе ступени 2&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_61_EMG_PinGC_high" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="LCLI5ESEJMPM7IXGS6YEOSRLXM" Y="15250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, ГК, высокое давление газа на входе&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_PinGC_high&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG_PinGC_highАВ, ГК, высокое давление газа на входе&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_62_EMG_HMI_AObutton" Type="TBaseAlarm" TypeUUID="M5I7H7I6EWWUHLAZF4QEN5YXQM" Enabled="true" UUID="UMF2WEEXRZRETKJMXQFCY6PYFI" X="-6" Y="15458">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="Name" Value="&apos;АВ, кнопка аварийного останова на АРМ&apos;" Type="STRING" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG_HMI_AObutton&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;AS.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AOs&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;ID_EMG_HMI_AObutton&apos;" Type="STRING" />
+            </FB>
+            <DataConnections>
+                <Connection Source="PrefAb" Destination="Alarm_1_SHD_tg_main_gas_Kr.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4E9670E42BA2411D8AD866F7F153C69A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_1_SHD_tg_main_gas_Kr.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4E9670E42BA2411D8AD866F7F153C69A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_2_SHD_tg_inlet_press_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="E954BBF68B7C4F68A636C48D670F71B8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_2_SHD_tg_inlet_press_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="E954BBF68B7C4F68A636C48D670F71B8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_3_SHD_tg_inlet_press_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="CE58D96E9EE2484CBC8ED6C89C909D81.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_3_SHD_tg_inlet_press_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="CE58D96E9EE2484CBC8ED6C89C909D81.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_4_SHD_tg_inlet_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="88F0CA0239FC4836B07C0A480F13D9F4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_4_SHD_tg_inlet_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="88F0CA0239FC4836B07C0A480F13D9F4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_5_SHD_tg_inlet_T_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6E3CB2EAE52C43EE839146BB01961123.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_5_SHD_tg_inlet_T_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6E3CB2EAE52C43EE839146BB01961123.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_6_SHD_from_load_red.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0A00B148F5F24E65847C60FE7BE6DC4A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_6_SHD_from_load_red.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0A00B148F5F24E65847C60FE7BE6DC4A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_7_SHD_PNSN_failed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9690F7A00648495291E9DED89928DC90.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_7_SHD_PNSN_failed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9690F7A00648495291E9DED89928DC90.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_8_SHD_WECS_comm_failure.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9580743A901C43519E395846ED410FD2.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_8_SHD_WECS_comm_failure.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9580743A901C43519E395846ED410FD2.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_9_SHD_Start_preparation_fa.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B928D9CAE42E4478AF7282F103707F19.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_9_SHD_Start_preparation_fa.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B928D9CAE42E4478AF7282F103707F19.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_10_SHD_D_ventil_failed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="251C83366EF84A559C29E9B0826AA47C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_10_SHD_D_ventil_failed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="251C83366EF84A559C29E9B0826AA47C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_11_SHD_D_start_failed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="1F7A6A7213984905BB20CA215BA82BD9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_11_SHD_D_start_failed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="1F7A6A7213984905BB20CA215BA82BD9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_12_SHD_D_NOT_stop_20min.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="741AE700187E4D4598D5705E1B8D0451.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_12_SHD_D_NOT_stop_20min.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="741AE700187E4D4598D5705E1B8D0451.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_13_SHD_PNS_failed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="992006CC28E647E9B4C5E8A9E82D4119.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_13_SHD_PNS_failed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="992006CC28E647E9B4C5E8A9E82D4119.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_14_SHD_Gas_leak_test_failed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="25A612D6ECDC403DACA7BE334366A775.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_14_SHD_Gas_leak_test_failed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="25A612D6ECDC403DACA7BE334366A775.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_15_SHD_WECS_shtd_FOR_PLC.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4F72FE7862484208BC70383C4FAA9050.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_15_SHD_WECS_shtd_FOR_PLC.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4F72FE7862484208BC70383C4FAA9050.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_16_SHD_Exhaust_ventilation.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2DD4764009FA4A4A9F81C1B74BE75E9D.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_16_SHD_Exhaust_ventilation.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2DD4764009FA4A4A9F81C1B74BE75E9D.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_17_SHD_GC_bearing_1_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F1E0F854B56E4B829FBFA731A41FA268.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_17_SHD_GC_bearing_1_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F1E0F854B56E4B829FBFA731A41FA268.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_18_SHD_GC_bearing_2_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D32C48F868D64A548FB1C541E5787835.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_18_SHD_GC_bearing_2_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D32C48F868D64A548FB1C541E5787835.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_19_SHD_GC_bearing_3_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="601E1E3276564512B1BB1252B8B2F025.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_19_SHD_GC_bearing_3_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="601E1E3276564512B1BB1252B8B2F025.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_20_SHD_GC_bearing_4_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="124083C40FA24EDAB97E00A3AB0E0396.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_20_SHD_GC_bearing_4_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="124083C40FA24EDAB97E00A3AB0E0396.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_21_SHD_GC_bearing_5_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="A0F80AD6C1164E42B16F849A2819D551.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_21_SHD_GC_bearing_5_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="A0F80AD6C1164E42B16F849A2819D551.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_22_SHD_GC_bearing_6_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B84A3B883BE847A4B9F6E00BB50D096F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_22_SHD_GC_bearing_6_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B84A3B883BE847A4B9F6E00BB50D096F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_23_SHD_FOG_1_oil_level_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="8FC421681CC041A4B49ED674EBA66107.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_23_SHD_FOG_1_oil_level_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="8FC421681CC041A4B49ED674EBA66107.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_24_SHD_FOG_2_oil_level_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="96BE933C0ED4459BA34DB3E3A96176FD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_24_SHD_FOG_2_oil_level_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="96BE933C0ED4459BA34DB3E3A96176FD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_25_SHD_GC_cyl_1_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="EC943B72BF6C4D918DD831A28B8D7ACB.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_25_SHD_GC_cyl_1_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="EC943B72BF6C4D918DD831A28B8D7ACB.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_26_SHD_GC_cyl_3_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="57F49356289A40E69E423C7928ABAADF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_26_SHD_GC_cyl_3_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="57F49356289A40E69E423C7928ABAADF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_27_SHD_GC_cyl_5_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="3D6E964C12EE4CDA8E2081D5A9A22674.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_27_SHD_GC_cyl_5_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="3D6E964C12EE4CDA8E2081D5A9A22674.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_28_SHD_GC_cyl_2_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="CC92BE6A73D0491B984E73BE9B7BFA27.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_28_SHD_GC_cyl_2_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="CC92BE6A73D0491B984E73BE9B7BFA27.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_29_SHD_GC_cyl_4_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="C4F0E81A8AC84AB989B6BBE6226F60F4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_29_SHD_GC_cyl_4_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="C4F0E81A8AC84AB989B6BBE6226F60F4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_30_SHD_GC_cyl_6_T_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="BF905A52FAC04C13822907C0E9FEE6B9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_30_SHD_GC_cyl_6_T_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="BF905A52FAC04C13822907C0E9FEE6B9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_31_SHD_NCW_stopped.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="DB0AF6B2FC8C4CCE9C9589541D5B01F8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_31_SHD_NCW_stopped.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="DB0AF6B2FC8C4CCE9C9589541D5B01F8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_32_SHD_GC_high_load_unloade.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="C5D04E2C6696495C9E733C47C0ACE2CD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_32_SHD_GC_high_load_unloade.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="C5D04E2C6696495C9E733C47C0ACE2CD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_33_SHD_VnAVOG_4_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6882E8405E464F7D8960BDEADB546AF6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_33_SHD_VnAVOG_4_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6882E8405E464F7D8960BDEADB546AF6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_34_SHD_VnAVOG_5_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="EF3C0FCE273A4057B35A5507FABA11A1.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_34_SHD_VnAVOG_5_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="EF3C0FCE273A4057B35A5507FABA11A1.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_35_SHD_VnAVOG_6_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="E21A38D0D8BE4572984B17A319396F31.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_35_SHD_VnAVOG_6_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="E21A38D0D8BE4572984B17A319396F31.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_36_SHD_FOG_2_oil_lev_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="C15610B09E4A4956850369B5EEA59D21.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_36_SHD_FOG_2_oil_lev_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="C15610B09E4A4956850369B5EEA59D21.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_37_SHD_FOG_1_oil_lev_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F3B40D3E7E04444E8C891761E3FB2EAE.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_37_SHD_FOG_1_oil_lev_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F3B40D3E7E04444E8C891761E3FB2EAE.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_38_SHD_Plant_shutDOwn.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D2AE59F43BDC47CDA754332240EA1AD4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_38_SHD_Plant_shutDOwn.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D2AE59F43BDC47CDA754332240EA1AD4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_39_SHD_Kr_unit_Krs_closed.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="65EAC2DCA0B44D9789896596CC1144F5.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_39_SHD_Kr_unit_Krs_closed.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="65EAC2DCA0B44D9789896596CC1144F5.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_40_SHD_gas_Kr_control_fault.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="1A78B752D8CE48D1A8CF688CFB9BFA8F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_40_SHD_gas_Kr_control_fault.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="1A78B752D8CE48D1A8CF688CFB9BFA8F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_41_SHD_GC_QmsmCyl1_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4B4ACDBCF14C4AD5838B8BA23AF74BD5.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_41_SHD_GC_QmsmCyl1_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4B4ACDBCF14C4AD5838B8BA23AF74BD5.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_42_SHD_GC_QmsmCyl2_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B2EA8B9C084C469C9EF03420CE1D8E5E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_42_SHD_GC_QmsmCyl2_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B2EA8B9C084C469C9EF03420CE1D8E5E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_43_SHD_Pmsm_inGC_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="04ACBCC23EEC42F985676BE216C512F4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_43_SHD_Pmsm_inGC_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="04ACBCC23EEC42F985676BE216C512F4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_44_SHD_Tmsm_inGC_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="53565F7074C6456B97840A0782D6B86F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_44_SHD_Tmsm_inGC_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="53565F7074C6456B97840A0782D6B86F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_45_SHD_GC_inlet_gas_P_low.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0FF44648E68449988BB4FE0A04A5E5DA.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_45_SHD_GC_inlet_gas_P_low.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0FF44648E68449988BB4FE0A04A5E5DA.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_46_SHD_VnAVOG_1_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="21BAB18C9FE64654A9E865A2D6F8556A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_46_SHD_VnAVOG_1_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="21BAB18C9FE64654A9E865A2D6F8556A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_47_SHD_VnAVOG_2_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F5E89F9A69424547993BA12F57B8A275.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_47_SHD_VnAVOG_2_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F5E89F9A69424547993BA12F57B8A275.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_48_SHD_VnAVOG_3_vibr_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B90AB0E04D56468E936136FFC3B6D4FF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_48_SHD_VnAVOG_3_vibr_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B90AB0E04D56468E936136FFC3B6D4FF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_49_EMG_Kr5_open.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="545453CADD044CC59D3A9168A70F8352.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_49_EMG_Kr5_open.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="545453CADD044CC59D3A9168A70F8352.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_50_EMG_MZ_AObutton.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6A3C66D690F84A7192494E878867F7D0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_50_EMG_MZ_AObutton.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6A3C66D690F84A7192494E878867F7D0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_51_SHD_Hmsm_GC_hi_hi.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D912DDA642624B1A8BFC77C5ACD16487.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_51_SHD_Hmsm_GC_hi_hi.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D912DDA642624B1A8BFC77C5ACD16487.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_52_SHD_GC_vibration_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="E148F4364B784A0FBB8B76FA55F168AD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_52_SHD_GC_vibration_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="E148F4364B784A0FBB8B76FA55F168AD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_53_SHD_D_vibration_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7818A0C655BA4A9CB5DAB7518B68C59F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_53_SHD_D_vibration_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7818A0C655BA4A9CB5DAB7518B68C59F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_54_EMG_ESDrele_ON.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9FA08758EBEA4655A502DD15EDDD319E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_54_EMG_ESDrele_ON.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9FA08758EBEA4655A502DD15EDDD319E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_55_EMG_WECS_panel_AObutton.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D344F9968B824C9FAA54A798D132D645.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_55_EMG_WECS_panel_AObutton.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D344F9968B824C9FAA54A798D132D645.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_56_EMG_DispAObutton.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2240C6B636484522AED853579F327865.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_56_EMG_DispAObutton.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2240C6B636484522AED853579F327865.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_57_EMG_ToutAVOG1_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="5CBE41DA95DC44DB9473FE9669D54A0A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_57_EMG_ToutAVOG1_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="5CBE41DA95DC44DB9473FE9669D54A0A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_58_EMG_ToutAVOG2_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B9503B0AB4F84AA380C08F71E1C2BAFD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_58_EMG_ToutAVOG2_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B9503B0AB4F84AA380C08F71E1C2BAFD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_59_EMG_PoutGC1_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4EBA964E0C9A4B389344237C6C96E5EF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_59_EMG_PoutGC1_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4EBA964E0C9A4B389344237C6C96E5EF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_60_EMG_PoutGC2_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="EE1C8634D91A4E64893DB7B7FC2CB232.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_60_EMG_PoutGC2_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="EE1C8634D91A4E64893DB7B7FC2CB232.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_61_EMG_PinGC_high.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="928E9658CF1E4B44B097E6A2BB2B4A47.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_61_EMG_PinGC_high.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="928E9658CF1E4B44B097E6A2BB2B4A47.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_62_EMG_HMI_AObutton.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="10AB0BA349628E970ABC2CA92AF8792C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_62_EMG_HMI_AObutton.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="10AB0BA349628E970ABC2CA92AF8792C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+            </DataConnections>
+        </FBNetwork>
+    </CompositeFBType>
+</Data>

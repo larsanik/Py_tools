@@ -1,0 +1,1422 @@
+<Data>
+    <CompositeFBType Name="T_AS_SHUD" Comment="AС от ШУД по modbus" ShowVarTypes="true" UUID="U5NLPLD74GXUVDCCNQVEFV4ERQ">
+        <InterfaceList>
+            <InputVars>
+                <VarDeclaration Name="PrefAb" Type="STRING" InitialValue="&apos;&apos;" UUID="U3X4UFK66ACU5H7KNEXC2LJZ7I" />
+                <VarDeclaration Name="NameRU" Type="STRING" InitialValue="&apos;&apos;" UUID="GSOR5H7AEMUUXD32KCFAKDHS74" />
+            </InputVars>
+        </InterfaceList>
+        <FBNetwork>
+            <FB Name="Alarm_1" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="J3Q3MH7BI2VBKVBMO64FGZUMSM" Y="250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[0]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[0]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[0]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_2" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="CAPRJUT5II4JJE7HBS74OBF2KY" Y="500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[1]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[1]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[1]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_3" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="WACFBFMKIA2OJQC75W5W3EUL5U" Y="750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[2]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[2]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[2]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_4" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="TL3BA25EIFPNEIU7HOFRUS67BY" Y="1000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[3]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[3]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[3]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_5" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="DD5TY3P6IDCM3NHBNGBSWYLVSE" Y="1250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[4]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[4]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[4]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_6" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="OZYSYQ6OJ2EN4II2Q6RMTIY6BI" Y="1500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[5]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[5]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[5]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_7" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="T2UFMQWWJ3YNOC5YNW4ZOBLQLI" Y="1750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[6]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[6]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[6]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_8" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="I33LUTWOJ3LESI2TE6GRIAPSEY" Y="2000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[7]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[7]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[7]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_9" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="3TEF557FIZZPJ4NZJS6KAMDBVA" Y="2250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[8]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[8]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[8]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_10" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="RB72ZE2XIMJBADCBACI5TCWQ3I" Y="2500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[9]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[9]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[9]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_11" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="QKFBICTCJNRG7SVE7SBNRFVPU4" Y="2750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[10]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[10]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[10]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_12" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="7QWWAXTXIRCE2YCHA2ZOQRDNXU" Y="3000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[11]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[11]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[11]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_13" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JYTEFFLOJFDFHGNWR6VM6ERO6U" Y="3250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[12]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[12]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[12]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_14" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="7TETV5DTIXNO5DSNYKXS5LH7QA" Y="3500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[13]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[13]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[13]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_15" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="5QYGQLGEJB7MJUIY5W7FRZVLYQ" Y="3750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[14]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[14]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[14]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_16" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="3TPYASXEJVUJW5KSTOPPJ45BDY" Y="4000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[15]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[15]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[15]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_17" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="2TYXUOBWI6TLKCQXIWCIQGB5TM" Y="4250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[16]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[16]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[16]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_18" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JZ6IYKWKIGGAEUP4JO5KIFJH2I" Y="4500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[17]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[17]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[17]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_19" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="VKLWUTODIF5KXP7AWSXEAPFSJU" Y="4750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[18]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[18]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[18]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_20" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="72M7FUSYJIKKDWJGDOH7X5JHXY" Y="5000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[19]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[19]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[19]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_21" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="HRK44NEGJHHK4GT3UWAW654COE" Y="5250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[20]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[20]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[20]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_22" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JAZJIL3VJ7SGHL7ZJCYZHCMQE4" Y="5500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[21]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[21]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[21]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_23" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="V3UIAQS4IUOCQSJ45CAHWTPIHU" Y="5750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[22]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[22]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[22]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_24" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="IS3UZUMGJHDBMWNRNWGSDTK35M" Y="6000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[23]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[23]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[23]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_25" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="3JUIAFAQIROFA4ZHEW7ORGIORE" Y="6250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[24]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[24]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[24]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_26" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="CKTCNAG2IWINEC2MFKJCJ3EPOM" Y="6500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[25]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[25]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[25]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_27" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="PIJ54P7NJ56EOJSIVKHVZQFM4I" Y="6750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[26]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[26]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[26]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_28" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="TL6MUOIGJDNERQDPN2O2PYCXBE" Y="7000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[27]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[27]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[27]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_29" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="G3MRRQJGIZLNSD7INOQJZ7VEMI" Y="7250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[28]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[28]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[28]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_30" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="WDHB4SHDIGRHS674JOT6N576LA" Y="7500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[29]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[29]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[29]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_31" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="BIVZE3QFIRIKMMXW3KOURI2M64" Y="7750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[30]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[30]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[30]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_32" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="YINLI6SYJQWLEIO6QOXZAIQUXQ" Y="8000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[31]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[31]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[31]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_33" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="G232USGMIOZOLOMZUGDRSZEM7Y" Y="8250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[32]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[32]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[32]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_34" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="CB3Q4EHIJZYEVJ2XHSQPEBIBYM" Y="8500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[33]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[33]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[33]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_35" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="GLZAQ43BJWZGWCHNBGLRXL34RU" Y="8750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[34]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[34]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[34]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_36" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="TBOE4IXOJREBD2VMHGNZOTAQ4A" Y="9000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[35]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[35]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[35]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_37" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="XYNKABZWIVPCMAHAOW7V4TKDWU" Y="9250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[36]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[36]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[36]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_38" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SLKWEFPSJ76FKA5YGOXWQ6EYIM" Y="9500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[37]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[37]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[37]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_39" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SJ7BR3EPIBUABJABPSCV7E3QWI" Y="9750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[38]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[38]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[38]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_40" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="3RETMM5YJ4DKAJ6RJOZJ2RBX2A" Y="10000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[39]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[39]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[39]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_41" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="327747RTIPGCS6JAJSLNEZZ47M" Y="10250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[40]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[40]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[40]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_42" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="BIWAJ5OAJXRAYSSAGCRYDEYRZE" Y="10500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[41]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[41]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[41]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_43" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="6ZMYM4VWIGVEUSVDI6PAYEYKOY" Y="10750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[42]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[42]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[42]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_44" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="QCDFAD6AJO6JKHSGY6W7PX2SYA" Y="11000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[43]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[43]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[43]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_45" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="PBDC5H7VJ32DZSRP5KQW7WCQ6Q" Y="11250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[44]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[44]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[44]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_46" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="KT4JFUANI26M24DG22AAQM6R5M" Y="11500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[45]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[45]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[45]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_47" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="IIFBIIIIIV2LMQ7ZY2U7GS7WGY" Y="11750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[46]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[46]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[46]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_48" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MS3DIYKKJXRJXMLGTWE4NK6WW4" Y="12000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[47]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[47]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[47]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_49" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="NQ6ERT6NJPOOYU6PESZ3B7IKB4" Y="12250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[48]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[48]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[48]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_50" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JS67FFNMIAFKVXGERCAYERMOLQ" Y="12500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[49]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[49]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[49]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_51" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="2RT74LDCIM7NFLQAPGYXBSBN3E" Y="12750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[50]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[50]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[50]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_52" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="VCWQZ3H3IQ4F3GF3NGLL3W2G6U" Y="13000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[51]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[51]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[51]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_53" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="HCNNI6CGJGUDB2D43KFQRH3RPA" Y="13250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[52]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[52]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[52]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_54" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MTWIVEPBI2NMSKALZ6H4S7LSYI" Y="13500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[53]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[53]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[53]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_55" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="PCVBBF4GIVJMQBDGS2S2VX555M" Y="13750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[54]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[54]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[54]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_56" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="OC2QBKUMIJ2NOAK2XCAIGC75HI" Y="14000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[55]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[55]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[55]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_57" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="ETNBYYBPIQMMJAUQYCYFWMEGUE" Y="14250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[56]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[56]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[56]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_58" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="UT36J4UDIFYFIPUFRCNWEER3RE" Y="14500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[57]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[57]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[57]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_59" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="YKKCA7MPICGHY3L4JGVOD2ZVFI" Y="14750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[58]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[58]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[58]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_60" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="FQWSAIL7INTJPF3FRGTBF7FD2U" Y="15000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[59]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[59]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[59]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_61" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="6BI6VEAGJWKLUUSLISEV4BIJXM" Y="15250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[60]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[60]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[60]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_62" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="HAKNA23QJIZEWCYO7KLVX7634Y" Y="15500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[61]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[61]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[61]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_63" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="72SR4FH2IWUJNIPQ66BBTSV2SI" Y="15750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[62]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[62]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[62]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_64" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MJIMYVTEI2QIO57ONC5UB5Y64A" Y="16000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[63]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[63]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[63]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_65" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="6L3NMJ2PJK5NEEF6DKXEQKGCJQ" Y="16250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[64]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[64]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[64]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_66" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="OC2RFEVYIUEDNGXNHKH7BMFAU4" Y="16500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[65]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[65]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[65]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_67" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="TK5J5UXKIEAEC4VSRGF2K2IIL4" Y="16750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[66]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[66]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[66]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_68" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="6JUJMSI4JOOHSH7F2SE5Z5BPSE" Y="17000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[67]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[67]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[67]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_69" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="YI2A5QCUIVOJEBRLVSZ3HRPIZA" Y="17250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[68]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[68]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[68]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_70" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="KBEIYKZCJ4FBFWDNBOIMU5LPAE" Y="17500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[69]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[69]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[69]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_71" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="AYB5VUYBJLQOHIVQAO2N7C3JEA" Y="17750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[70]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[70]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[70]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_72" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="4A23MWNQIBVBDXQ5IWMXON5HB4" Y="18000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[71]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[71]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[71]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_73" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="ND7JZTONI4GLHKG5AGWCDL6QL4" Y="18250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[72]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[72]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[72]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_74" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SI35YDDKIATGLUNQTKRBRLYOAA" Y="18500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[73]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[73]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[73]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_75" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="ES4TV63SI5DKKPOFNSUZLNXNK4" Y="18750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[74]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[74]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[74]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_76" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="UTHOFBZEJHJDXTJWSSBWJCS4VA" Y="19000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[75]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[75]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[75]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_77" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="63ASVLHLJAVOOLP5LO6AQE4WZU" Y="19250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[76]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[76]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[76]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_78" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="GDAJFMWSJSGOBKEPI6EEYGY6YE" Y="19500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[77]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[77]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[77]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_79" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="FJ6GJYFPJYXPKDE6M6SWK27EWQ" Y="19750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[78]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[78]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[78]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_80" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="33FMF4WZIMBNPVT2CKB6LMNT24" Y="20000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[79]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[79]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[79]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_81" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="YBTFRKSNIBOH6D3UECLMTXG3QA" Y="20250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[80]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[80]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[80]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_82" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="OKPMUPDUI2IHSEHZ3WEMQJNODY" Y="20500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[81]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[81]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[81]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_83" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="B253UC2IJ5MO4W62K2K27F7NNI" Y="20750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[82]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[82]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[82]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_84" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="W33NQ6XXI2XLLU2YC6GCGVAOAE" Y="21000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[83]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[83]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[83]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_85" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="7L6W5WLHJWXPRXC3H2HXXTKFZI" Y="21250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[84]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[84]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[84]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_86" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="NINV55PAJEJGDF56L2TTNKQM7A" Y="21500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[85]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[85]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[85]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_87" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="NIKWRC3GJ2JNHLBIRSEDWWUWWQ" Y="21750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[86]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[86]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[86]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_88" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SJN6B5C5JDAKIVVTIKR6N46XKE" Y="22000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[87]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[87]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[87]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_89" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="4BG352N6JEAPWNYFWKUP7XHKN4" Y="22250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[88]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[88]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[88]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_90" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="ASBYQCD7IRXMC7ZF3OR64CWCXQ" Y="22500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[89]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[89]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[89]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_91" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="5INOU2EAIZ4HDBN6KWKUGGG5BA" Y="22750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[90]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[90]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[90]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_92" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="M3S35UUYJZ5JWDU3JKP2OGD2TM" Y="23000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[91]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[91]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[91]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_93" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MTPVJW46IQSNA7ZFL2VTDWKUMM" Y="23250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[92]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[92]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[92]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_94" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SCFBFGCBILMKU7JYMSMQWA26LM" Y="23500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[93]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[93]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[93]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_95" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="FZIRMB5CJ3GKYBO3LGYQ75ETAA" Y="23750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[94]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[94]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[94]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_96" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="PRWOJKTEJIRL4YFGSS67AZYVVI" Y="24000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[95]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[95]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[95]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_97" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="KK3EZS5OJZLNX5RHZCF2RXJW4Q" Y="24250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[96]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[96]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[96]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_98" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="YKX7BUAQI5HBMERPTKNZ4KPZJ4" Y="24500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[97]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[97]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[97]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_99" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="HDUKF4HRIMWAKXNHGKRLVG74RE" Y="24750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[98]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[98]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[98]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_100" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="XBVTZBRYIEUFWQELMKUKFRBE44" Y="25000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[99]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[99]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[99]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_101" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="6ZNZRJPNINHBTWJI76HPHHMI2Q" Y="25250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[100]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[100]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[100]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_102" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="IAMHUK4OIAAGPV7F5GSKY4Y33M" Y="25500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[101]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[101]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[101]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_103" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JICSYH6HI5VFJXZ3TK6VJHEMKI" Y="25750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[102]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[102]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[102]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_104" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MQVYYXCQJHIIVQBD3K2SMGXPYE" Y="26000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[103]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[103]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[103]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_105" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="JJSEMA42JLCDAVN6HKD26EZORY" Y="26250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[104]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[104]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[104]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_106" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="VT4QE7UYIQXFE65U6OWU3OHJGI" Y="26500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[105]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[105]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[105]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_107" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="LQGMAQQDJVCJFSQSFOXQUCR7CQ" Y="26750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[106]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[106]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[106]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_108" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="PCUGFJ6LJ5KJS3MCWOPAUDYGXA" Y="27000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[107]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[107]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[107]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_109" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="SYKUN7MEIV3BXLPGMKQWFFWQ7Q" Y="27250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[108]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[108]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[108]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_110" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="EQJAUCQUJGNJLQFPGKQKZFB7UM" Y="27500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[109]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[109]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[109]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_111" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="63H6QEPWI3AOI4NRAO2HNRTAWA" Y="27750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[110]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[110]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[110]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_112" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="LQAHU42JJGMOH62I2SBBOK4VOU" Y="28000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[111]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[111]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[111]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_113" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="UJNLQOZ5IC4O7D2VGS2IZYQOHI" Y="28250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[112]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[112]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[112]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_114" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="KA46IK4EJFXGIOMWL2JTNCVKPA" Y="28500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[113]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[113]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[113]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_115" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="UQHSUKUCITOMJ5WIIW3MAJRSVE" Y="28750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[114]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[114]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[114]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_116" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="HKU2VWEVIVCE4TGSTWBWVNON3U" Y="29000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[115]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[115]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[115]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_117" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="KKT2YCN4INYNF7MBDG3MMFNWSM" Y="29250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[116]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[116]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[116]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_118" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="5CI5ZVHFI2OPEF3SSSOL5WG4WY" Y="29500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[117]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[117]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[117]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_119" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="2QWBRCO2JHVH6L4422BL2TSZBU" Y="29750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[118]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[118]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[118]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_120" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="XQ7D4QGSIZ2P6VD4GW4ZHWRYQA" Y="30000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[119]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[119]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[119]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_121" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="3T3XJNPBJGUJTHMWMG4WQLBBCE" Y="30250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[120]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[120]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[120]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_122" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="XZR6I52PI3KANS2A3KQNTZMMKU" Y="30500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[121]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[121]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[121]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_123" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="IR7M4JLNINHN3273ICG236L5JA" Y="30750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[122]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[122]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[122]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_124" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="LIV7IYNYITQIFZ4QTSIUQVBZKA" Y="31000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[123]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[123]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[123]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_125" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="MSJGIBLFJ2KCP56CBKCYYETKPI" Y="31250">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[124]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[124]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[124]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_126" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="IQTLJEHIJLRPVQET5OVEPKDGFU" Y="31500">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[125]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[125]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[125]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_127" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="5IUQVM3YITGDAN4CE6W4MAPY7A" Y="31750">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[126]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[126]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[126]&apos;" Type="STRING" />
+            </FB>
+            <FB Name="Alarm_128" Type="TBaseAlarm_VarMessage" TypeUUID="QGAXGUZ7265UTCCGJKJ4MZVRJE" Enabled="true" UUID="EL3E4X2TJSBAB6IRYSLKQMD3AM" Y="32000">
+                <VarValue Variable="Category" Value="10000" Type="DINT" />
+                <VarValue Variable="NameAlg" Value="&apos;EMG[127]&apos;" Type="STRING" />
+                <VarValue Variable="PrefStr" Value="&apos;APS_SHUD_MK150.&apos;" Type="STRING" />
+                <VarValue Variable="Source" Value="&apos;АС ШУД&apos;" Type="STRING" />
+                <VarValue Variable="TAG" Value="&apos;AS&apos;" Type="STRING" />
+                <VarValue Variable="TagID" Value="&apos;EMG[127]_ID&apos;" Type="STRING" />
+                <VarValue Variable="Var_Name" Value="&apos;APS_SHUD_MK150.EMG_Str[127]&apos;" Type="STRING" />
+            </FB>
+            <DataConnections>
+                <Connection Source="PrefAb" Destination="Alarm_1.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="1FB6E14E15AA46E1B8772C54938C6653.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_1.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="1FB6E14E15AA46E1B8772C54938C6653.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_2.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D2141F109438427DBF0CE79356BA04C7.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_2.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D2141F109438427DBF0CE79356BA04C7.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_3.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="955004B0E434408ABBED5FC0ED8B926D.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_3.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="955004B0E434408ABBED5FC0ED8B926D.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_4.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6B10F69AD25E41A48B3B9F220EDF4B1A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_4.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6B10F69AD25E41A48B3B9F220EDF4B1A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_5.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6D3CFB18CDC440FE8369E1B49175612B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_5.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6D3CFB18CDC440FE8369E1B49175612B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_6.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="432C7176DE884ECEA2871A210A1EA3C9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_6.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="432C7176DE884ECEA2871A210A1EA3C9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_7.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4256A89ED7F04ED6B96DB80B5A700597.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_7.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4256A89ED7F04ED6B96DB80B5A700597.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_8.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4EBAF64649D64ECE8D27532326F20114.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_8.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4EBAF64649D64ECE8D27532326F20114.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_9.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F75EC8DCF47246E5BC4CB9F1A86130A0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_9.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F75EC8DCF47246E5BC4CB9F1A86130A0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_10.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="93AC7F88101243579100410CDAD08AD9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_10.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="93AC7F88101243579100410CDAD08AD9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_11.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0A148A826F624B6282FCA4CAA7AF96D8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_11.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0A148A826F624B6282FCA4CAA7AF96D8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_12.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="5E602DFC4D444477B2064760BD6D44E8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_12.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="5E602DFC4D444477B2064760BD6D44E8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_13.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9542264E5346496EAA8FB699F52E12CF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_13.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9542264E5346496EAA8FB699F52E12CF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_14.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F43AC9FCEEDA4573AFC24D8E80FFAC2E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_14.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F43AC9FCEEDA4573AFC24D8E80FFAC2E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_15.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2C6830ECC47E48C4BEED18D1C4ABE658.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_15.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2C6830ECC47E48C4BEED18D1C4ABE658.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_16.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4A80DFDC9B684DE49E9B52751EA1F3F4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_16.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4A80DFDC9B684DE49E9B52751EA1F3F4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_17.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="387AF1D4B5A647368445170A9B3D1888.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_17.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="387AF1D4B5A647368445170A9B3D1888.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_18.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2A8C7C4E028C41CABA4BFC51D22715A4.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_18.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2A8C7C4E028C41CABA4BFC51D22715A4.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_19.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4D6A97AAAB7A41C3AEB4E0BF4DB23C40.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_19.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4D6A97AAAB7A41C3AEB4E0BF4DB23C40.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_20.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D2F299FEA1144A588F1B26D9BE27F5FB.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_20.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D2F299FEA1144A588F1B26D9BE27F5FB.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_21.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="34CE553CAECE498681A57B1A7182776F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_21.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="34CE553CAECE498681A57B1A7182776F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_22.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2F94324863E44F75B148F9AF27908993.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_22.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2F94324863E44F75B148F9AF27908993.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_23.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="4280E8AE281C455C80E83C493DE84D7B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_23.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="4280E8AE281C455C80E83C493DE84D7B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_24.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D14CB74416C649868D6DB159EB5BCD21.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_24.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D14CB74416C649868D6DB159EB5BCD21.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_25.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="148068DA505C4410BE252773890E99E8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_25.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="148068DA505C4410BE252773890E99E8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_26.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="8026A612D29045DA922A4C0B738FEC24.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_26.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="8026A612D29045DA922A4C0B738FEC24.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_27.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="3FDE137A477C4FED8FAA4826E2ACC05C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_27.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="3FDE137A477C4FED8FAA4826E2ACC05C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_28.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="39CAFC9A48DA48069D6E6FC00957E0A7.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_28.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="39CAFC9A48DA48069D6E6FC00957E0A7.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_29.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="C118D936D9564626A06BE80F62A4FE9C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_29.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="C118D936D9564626A06BE80F62A4FE9C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_30.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="481ECEB079A241E3A74BFC7B58FEF7E6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_30.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="481ECEB079A241E3A74BFC7B58FEF7E6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_31.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6E922B0AA65044059DDAF632F74CA348.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_31.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6E922B0AA65044059DDAF632F74CA348.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_32.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7AB41AC2B22C4C58AF83DE21BC142290.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_32.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7AB41AC2B22C4C58AF83DE21BC142290.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_33.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="48AAB736E5B243CC87A199B9FE8C6419.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_33.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="48AAB736E5B243CC87A199B9FE8C6419.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_34.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="100E77104A704EE8A03C57A7C30105F2.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_34.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="100E77104A704EE8A03C57A7C30105F2.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_35.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7308F2326BB24D619709ED088D7CAF1B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_35.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7308F2326BB24D619709ED088D7CAF1B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_36.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="224E5C9811484CEE9B39ACEAE0104C97.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_36.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="224E5C9811484CEE9B39ACEAE0104C97.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_37.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="07A01ABE265E4536BF75E000B5434D5E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_37.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="07A01ABE265E4536BF75E000B5434D5E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_38.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="1562D59255FC4FF2AF33B80343987868.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_38.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="1562D59255FC4FF2AF33B80343987868.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_39.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="EC187E920068408F857C01A4B270935F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_39.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="EC187E920068408F857C01A4B270935F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_40.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="333649DCA0064FB8B24BD127D037449D.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_40.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="333649DCA0064FB8B24BD127D037449D.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_41.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7EFEBFDE29CC4333964C2079FB3C67D2.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_41.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7EFEBFDE29CC4333964C2079FB3C67D2.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_42.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F5042C0A0CE24DC0A330404AC9119381.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_42.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F5042C0A0CE24DC0A330404AC9119381.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_43.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="728659F64AAA41B69E47A34A760A130C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_43.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="728659F64AAA41B69E47A34A760A130C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_44.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0F50868095BC4BC0ADC7461EC052DFF7.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_44.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0F50868095BC4BC0ADC7461EC052DFF7.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_45.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9F2E46783CF44EF5A1EA2FCAF450D86F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_45.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9F2E46783CF44EF5A1EA2FCAF450D86F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_46.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D092F854CDBC460D80D66670EBD13308.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_46.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D092F854CDBC460D80D66670EBD13308.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_47.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="21140A42B6744508A9C6F94336F64BF3.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_47.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="21140A42B6744508A9C6F94336F64BF3.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_48.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6134B6649BE24D4A899D66B1B7D6ABC6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_48.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6134B6649BE24D4A899D66B1B7D6ABC6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_49.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="CF483C6CECDC4BCDB324CF530F0AFDB0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_49.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="CF483C6CECDC4BCDB324CF530F0AFDB0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_50.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="95F2BD4CAA0A40AC8188C4DC5C8E4582.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_50.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="95F2BD4CAA0A40AC8188C4DC5C8E4582.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_51.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2CFE67D4D23E4362B17900AED92DC870.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_51.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2CFE67D4D23E4362B17900AED92DC870.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_52.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="EC0CADA85D3844FB9669BB98F546DBBD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_52.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="EC0CADA85D3844FB9669BB98F546DBBD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_53.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="78D49A3830A849468BDA7CE878719F08.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_53.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="78D49A3830A849468BDA7CE878719F08.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_54.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="918AEC64C99A46E18FCF0B28C2727DC9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_54.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="918AEC64C99A46E18FCF0B28C2727DC9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_55.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9710AA78C8524586A5966604EBBDDFAA.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_55.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9710AA78C8524586A5966604EBBDDFAA.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_56.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="AA00B570D774428C80B85A013AFD0B83.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_56.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="AA00B570D774428C80B85A013AFD0B83.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_57.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="601CDA24C418442FB0C09082A186305B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_57.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="601CDA24C418442FB0C09082A186305B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_58.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F2E4F7A4547041839B88853E893B1262.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_58.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F2E4F7A4547041839B88853E893B1262.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_59.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7D2094C27C8C408FAA497C6D2A35EBE1.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_59.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7D2094C27C8C408FAA497C6D2A35EBE1.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_60.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="21202D2C9766437FA6896597D5A3FC12.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_60.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="21202D2C9766437FA6896597D5A3FC12.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_61.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="90EA51F0BA944D0689444B52BB09055E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_61.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="90EA51F0BA944D0689444B52BB09055E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_62.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="6BD014384B324A7097FA0E0BE6DBFF5B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_62.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="6BD014384B324A7097FA0E0BE6DBFF5B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_63.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="141EA5FE96A845FA82F7F0A192BACA19.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_63.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="141EA5FE96A845FA82F7F0A192BACA19.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_64.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="56CC506287A04664BB68EE77E01EF740.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_64.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="56CC506287A04664BB68EE77E01EF740.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_65.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="27D6F6F2D2BA4A4FAE1ABE104CC22848.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_65.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="27D6F6F2D2BA4A4FAE1ABE104CC22848.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_66.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="9212B570360845B88F3AED9AA7A0B0F0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_66.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="9212B570360845B88F3AED9AA7A0B0F0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_67.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D29EBA9A410041EA8B89B2725F0869A5.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_67.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D29EBA9A410041EA8B89B2725F0869A5.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_68.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="499668F2799C4B1C89D4E51F912FF4DC.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_68.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="499668F2799C4B1C89D4E51F912FF4DC.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_69.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="C00E34C2925C4554B3AC2B06C8E8C5B3.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_69.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="C00E34C2925C4554B3AC2B06C8E8C5B3.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_70.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2B8C4850120A4F22900B6DD8016F75CA.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_70.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2B8C4850120A4F22900B6DD8016F75CA.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_71.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D3DA0306E3E04A01B403B0A220698BDF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_71.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D3DA0306E3E04A01B403B0A220698BDF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_72.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="59B635E0116A40B099451DDE0FA73777.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_72.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="59B635E0116A40B099451DDE0FA73777.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_73.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="CD9CFE68B30C47CDAC01DDA85FD0AF21.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_73.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="CD9CFE68B30C47CDAC01DDA85FD0AF21.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_74.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0CDC37926526406AA29AB0D1000EAF18.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_74.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0CDC37926526406AA29AB0D1000EAF18.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_75.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="FB3AB924A5464772A96CC53D57EDB695.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_75.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="FB3AB924A5464772A96CC53D57EDB695.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_76.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="87E2CEA43BD24924839436CDA85C8A64.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_76.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="87E2CEA43BD24924839436CDA85C8A64.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_77.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="AC2AC1F6E72A48EBBC5BFD2DCD961308.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_77.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="AC2AC1F6E72A48EBBC5BFD2DCD961308.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_78.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B292C030E08C4CD288478FA8C11E1B4C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_78.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B292C030E08C4CD288478FA8C11E1B4C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_79.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="E0647C2AF52E4EAFA5679E0CB4E46B65.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_79.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="E0647C2AF52E4EAFA5679E0CB4E46B65.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_80.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F2C2CADED70243D983127AD6D7B3B1E5.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_80.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F2C2CADED70243D983127AD6D7B3B1E5.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_81.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="AA5866C07F5C404D9620740F80DBDCC9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_81.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="AA5866C07F5C404D9620740F80DBDCC9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_82.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="3CCA9E727990467488DDF9101EAE25C8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_82.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="3CCA9E727990467488DDF9101EAE25C8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_83.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0BBABB0EEE584F489556DA5B6AED97AF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_83.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0BBABB0EEE584F489556DA5B6AED97AF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_84.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7AD8F6B6B5AE46F78C1758D3010E5423.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_84.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7AD8F6B6B5AE46F78C1758D3010E5423.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_85.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D96EFDFAF8AE4D678F3E5BDCCA45CD7B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_85.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D96EFDFAF8AE4D678F3E5BDCCA45CD7B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_86.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F55E1B6A611249E0A75EBE97F80CAA36.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_86.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F55E1B6A611249E0A75EBE97F80CAA36.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_87.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="8B68156AD3924E66888C28ACB4965A3B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_87.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="8B68156AD3924E66888C28ACB4965A3B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_88.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F4E05B92A4C0485DA342B35651D7F3E6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_88.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F4E05B92A4C0485DA342B35651D7F3E6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_89.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="E9BE4DE0FB0049BEA8B205376FEADCFF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_89.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="E9BE4DE0FB0049BEA8B205376FEADCFF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_90.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="08888304C16E447FA3DB257FBCC20AEE.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_90.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="08888304C16E447FA3DB257FBCC20AEE.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_91.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="68EA1AEA717846809555BE8508DD1843.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_91.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="68EA1AEA717846809555BE8508DD1843.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_92.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D2BEE5669B7A4E989F4A9B0E9B7A18A7.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_92.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D2BEE5669B7A4E989F4A9B0E9B7A18A7.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_93.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="DB54DF64D024449EAB5E257F6354D931.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_93.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="DB54DF64D024449EAB5E257F6354D931.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_94.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="98128A90AAD842419964387D5B5E030B.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_94.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="98128A90AAD842419964387D5B5E030B.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_95.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0716512EACCC4EA2B159DB050093F40F.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_95.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0716512EACCC4EA2B159DB050093F40F.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_96.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="AAE46C7CBE224A64BD94A660AA1567F0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_96.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="AAE46C7CBE224A64BD94A660AA1567F0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_97.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="CB4CB652DB564EAE8BC827F6E436DDA8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_97.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="CB4CB652DB564EAE8BC827F6E436DDA8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_98.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D0F0AFC2164E47109B9A2F124FF9299E.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_98.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D0F0AFC2164E47109B9A2F124FF9299E.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_99.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="F0A2E838052C43F1A232A75D89FC9BBA.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_99.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="F0A2E838052C43F1A232A75D89FC9BBA.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_100.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="863C6BB85B284138A8628B40E724C4A2.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_100.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="863C6BB85B284138A8628B40E724C4A2.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_101.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="A5985BF6194E43ED8EFF28D9D4889DF3.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_101.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="A5985BF6194E43ED8EFF28D9D4889DF3.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_102.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2B7A18406700408EA4E9E5D7DB1B73AC.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_102.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2B7A18406700408EA4E9E5D7DB1B73AC.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_103.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="1F2C054A546A47C7BD9A3BDF528C9C54.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_103.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="1F2C054A546A47C7BD9A3BDF528C9C54.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_104.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="5C8C2B648AD04950B5DA23C0C1EF1A26.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_104.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="5C8C2B648AD04950B5DA23C0C1EF1A26.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_105.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0346644A30C44A9A873ABE558E2E13AF.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_105.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0346644A30C44A9A873ABE558E2E13AF.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_106.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="7E02F9AC522E4498ADF3B47B32E9B84D.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_106.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="7E02F9AC522E4498ADF3B47B32E9B84D.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_107.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="42C00C5C92444D03AF2B12CA143F0A0A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_107.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="42C00C5C92444D03AF2B12CA143F0A0A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_108.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="A762A87899544FCB9EB3826DB8060F0A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_108.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="A762A87899544FCB9EB3826DB8060F0A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_109.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="FD4615961B764584A162E6ADFCD09662.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_109.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="FD4615961B764584A162E6ADFCD09662.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_110.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0A0A1224959A4914A032AFC0A33F94AC.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_110.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0A0A1224959A4914A032AFC0A33F94AC.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_111.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="11E8CFF6E4C046F6B403B171B060C676.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_111.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="11E8CFF6E4C046F6B403B171B060C676.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_112.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="737A005CE398494982D448FB75952B17.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_112.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="737A005CE398494982D448FB75952B17.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_113.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="3BB85AA2EFB8403DB434558F3A0EE28C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_113.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="3BB85AA2EFB8403DB434558F3A0EE28C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_114.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2BE43950646E4984935E963978AA8A36.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_114.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2BE43950646E4984935E963978AA8A36.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_115.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="2A2A0FA4C4DC4482B645C8F6A93226C0.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_115.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="2A2A0FA4C4DC4482B645C8F6A93226C0.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_116.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D8AAA93A4E444595839DD24CDDCDB56A.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_116.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D8AAA93A4E444595839DD24CDDCDB56A.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_117.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="09ACA752D27043BCB61981FD93B615C6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_117.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="09ACA752D27043BCB61981FD93B615C6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_118.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="D4DC91E8F29C46E59C947217B6DCD8BE.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_118.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="D4DC91E8F29C46E59C947217B6DCD8BE.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_119.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="89182CD47FEA49DA82D69C2F0D594EBD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_119.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="89182CD47FEA49DA82D69C2F0D594EBD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_120.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="403E3EBCFF7446D2B9357C548038DA93.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_120.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="403E3EBCFF7446D2B9357C548038DA93.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_121.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B574F7DC99A849E1B961969D11212C68.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_121.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B574F7DC99A849E1B961969D11212C68.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_122.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="77E463BE06D4464FA0DA40CB558CE5D9.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_122.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="77E463BE06D4464FA0DA40CB558CE5D9.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_123.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="25CE7E44DD4E436D8D40FBEB487DF9AD.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_123.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="25CE7E44DD4E436D8D40FBEB487DF9AD.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_124.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="61F42B5A82E044B8919C90E750395448.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_124.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="61F42B5A82E044B8919C90E750395448.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_125.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="0564926427944E65850AC2F77A6A128C.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_125.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="0564926427944E65850AC2F77A6A128C.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_126.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="90B42644FAE24AE8AAEB93C02D66A847.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_126.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="90B42644FAE24AE8AAEB93C02D66A847.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_127.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="B30A29EA30CC4478AD278237F8F801C6.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_127.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="B30A29EA30CC4478AD278237F8F801C6.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+                <Connection Source="PrefAb" Destination="Alarm_128.PrefAb" SourceUUID="15CAEFA64E05F05E2E69EA9FFA392D2D" DestinationUUID="5F4EF62200824C5396C411F9037B30A8.BF006B714315657CEF6F149C7EA85201" />
+                <Connection Source="NameRU" Destination="Alarm_128.NameRU" SourceUUID="9F1E9D344B2923E08A507A8FFFF20C05" DestinationUUID="5F4EF62200824C5396C411F9037B30A8.8ABFE2D44BF39DC62F090CAA97DA29C7" />
+            </DataConnections>
+        </FBNetwork>
+    </CompositeFBType>
+</Data>

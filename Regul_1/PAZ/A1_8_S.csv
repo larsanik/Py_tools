@@ -1,0 +1,28 @@
+//CoDeSys Mapping Export V1.2
+//Mapped variable;//Parameter name @ counter in device;//Unit;//Description;//IEC address;//Device name;
+//Important: change only first, third or fourth column in Excel or add variable name before first ;
+;ai1;;;%ID1;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch1;Значение;;;%ID1;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch1;Достоверность значения;;;%IX8.0;A1_3
+;ai2;;;%ID3;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch2;Значение@1;;;%ID3;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch2;Достоверность значения@1;;;%IX16.0;A1_3
+;ai3;;;%ID5;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch3;Значение@2;;;%ID5;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch3;Достоверность значения@2;;;%IX24.0;A1_3
+;ai4;;;%ID7;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch4;Значение@3;;;%ID7;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch4;Достоверность значения@3;;;%IX32.0;A1_3
+;ai5;;;%ID9;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch5;Значение@4;;;%ID9;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch5;Достоверность значения@4;;;%IX40.0;A1_3
+;ai6;;;%ID11;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch6;Значение@5;;;%ID11;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch6;Достоверность значения@5;;;%IX48.0;A1_3
+;ai7;;;%ID13;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch7;Значение@6;;;%ID13;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch7;Достоверность значения@6;;;%IX56.0;A1_3
+;ai8;;;%ID15;A1_3
+Application_PAZ.PAZ_GVL.A1_3.in_ch8;Значение@7;;;%ID15;A1_3
+Application_PAZ.PAZ_GVL.A1_3.check_ch8;Достоверность значения@7;;;%IX64.0;A1_3
+Application_PAZ.PAZ_GVL.A1_3.hwErr;HwError;;;%IX68.0;A1_3

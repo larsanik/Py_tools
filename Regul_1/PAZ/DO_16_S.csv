@@ -1,0 +1,20 @@
+//CoDeSys Mapping Export V1.2;;;;;
+//Mapped variable;//Parameter name @ counter in device;//Unit;//Description;//IEC address;//Device name
+//Important: change only first, third or fourth column in Excel or add variable name before first ;;;;;
+Application_PAZ.PAZ_GVL.A1_20.out_ch1;do1;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch2;do2;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch3;do3;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch4;do4;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch5;do5;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch6;do6;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch7;do7;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch8;do8;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch9;do9;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch10;do10;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch11;do11;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch12;do12;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch13;do13;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch14;do14;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch15;do15;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.out_ch16;do16;;;;A1_20
+Application_PAZ.PAZ_GVL.A1_20.hwErr;HwError;;;;A1_20
